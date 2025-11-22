@@ -54,9 +54,12 @@ function Experience() {
       <div className="space-y-8">
         {experienceData.map((item, i) => (
           <div key={i} className="card p-6">
-            <div
-              className="flex justify-between items-start cursor-pointer"
+            <button
+              type="button"
+              className="flex justify-between items-start cursor-pointer w-full text-left bg-transparent border-0 p-0"
               onClick={() => setOpenIndex(openIndex === i ? null : i)}
+              aria-expanded={openIndex === i}
+              aria-controls={`details-${i}`}
             >
               <div>
                 <h3 className="text-xl font-bold text-slate-900">
@@ -68,13 +71,17 @@ function Experience() {
                 <p className="text-sm text-slate-500">{item.period}</p>
               </div>
               <span className="text-2xl text-slate-400">
-                {openIndex === i ? "-" : "+"}
+                {openIndex === i ? "−" : "+"}
               </span>
-            </div>
+            </button>
+
             <div
+              id={`details-${i}`}
               className={`details mt-4 text-slate-600 ${
                 openIndex === i ? "open" : ""
               }`}
+              role="region"
+              aria-hidden={openIndex !== i}
             >
               <ul className="list-disc pl-5 space-y-2">
                 {item.details.map((detail, j) => (
