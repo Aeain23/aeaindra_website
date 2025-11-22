@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aeaindra_website/static/css/main.1e694a7c.css",
+    "main.js": "/aeaindra_website/static/js/main.a840e142.js",
+    "index.html": "/aeaindra_website/index.html",
+    "main.1e694a7c.css.map": "/aeaindra_website/static/css/main.1e694a7c.css.map",
+    "main.a840e142.js.map": "/aeaindra_website/static/js/main.a840e142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e694a7c.css",
+    "static/js/main.a840e142.js"
+  ]
+}
