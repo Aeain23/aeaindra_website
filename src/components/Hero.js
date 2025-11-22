@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section id="hero" className="text-center mb-20">
       <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight">
-        Team Lead Developer | Senior Mobile Developer
+        Team Lead Developer | Senior Developer | Full Stack Developer
       </h1>
       <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
         Mobile Architect specializing in Flutter, Clean Architecture, and
