@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/aeaindra_website/static/css/main.1e694a7c.css",
-    "main.js": "/aeaindra_website/static/js/main.a840e142.js",
+    "main.css": "/aeaindra_website/static/css/main.54199610.css",
+    "main.js": "/aeaindra_website/static/js/main.074ba63a.js",
     "index.html": "/aeaindra_website/index.html",
-    "main.1e694a7c.css.map": "/aeaindra_website/static/css/main.1e694a7c.css.map",
-    "main.a840e142.js.map": "/aeaindra_website/static/js/main.a840e142.js.map"
+    "main.54199610.css.map": "/aeaindra_website/static/css/main.54199610.css.map",
+    "main.074ba63a.js.map": "/aeaindra_website/static/js/main.074ba63a.js.map"
   },
-  "entrypoints": [
-    "static/css/main.1e694a7c.css",
-    "static/js/main.a840e142.js"
-  ]
+  "entrypoints": ["static/css/main.54199610.css", "static/js/main.074ba63a.js"]
 }
