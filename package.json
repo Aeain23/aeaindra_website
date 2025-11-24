@@ -1,6 +1,6 @@
 {
   "name": "a-eain-dra-portfolio",
-  "homepage": "https://aeain23.github.io/aeaindra_website",
+  "homepage": "https://aeain23.github.io/aeaindra_website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "git subtree push --prefix build origin gh-pages",
     "tailwind:init": "node ./node_modules/tailwindcss/lib/cli.js init -p"
   },
   "browserslist": {
